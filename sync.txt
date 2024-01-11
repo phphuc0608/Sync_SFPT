@@ -1,5 +1,5 @@
 open sftp://test:1234567890@10.52.0.123:22/ -hostkey="ssh-rsa 1024 99:02:af:5a:23:4f:43:ef:20:24:66:ae:71:27:da:06"
 
-synchronize local "D:\bat_ver\test" "/"
+synchronize local -mirror "D:\bat_ver\test" "/"
 echo Done!
 exit
