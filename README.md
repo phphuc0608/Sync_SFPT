@@ -16,5 +16,5 @@ exit
 ## Synchronize command
 ### Switches:
 |Switch|Description|
-|:-----------|:-----------:|
+|:-----------|:-----------|
 |`-preview`| xem trước các thay đổi, không đồng bộ hóa. Các cài đặt transfer chuyển đổi [`-permission`](https://winscp.net/eng/docs/scriptcommand_synchronize#permissions), [`-nopermissions`](https://winscp.net/eng/docs/scriptcommand_synchronize#nopermissions), [`-speed`](https://winscp.net/eng/docs/scriptcommand_synchronize#speed), [`-transfer`](https://winscp.net/eng/docs/scriptcommand_synchronize#transfer) và [`-resumesupport`](https://winscp.net/eng/docs/scriptcommand_synchronize#resumesupport) sẽ không có tác dụng|
