@@ -1,5 +1,6 @@
-open sftp://test:1234567890@10.52.0.123:22/ -hostkey="ssh-rsa 1024 99:02:af:5a:23:4f:43:ef:20:24:66:ae:71:27:da:06"
-
-synchronize local -mirror "D:\Workspace\bat_ver\test" "/"
+option batch on
+option confirm off
+open sftp://test:1234567890@10.52.0.123:22 -hostkey="ssh-rsa 1024 99:02:af:5a:23:4f:43:ef:20:24:66:ae:71:27:da:06"
+synchronize local -mirror -delete "D:\Workspace\bat_ver\test" "/USI"
 echo Done!
 exit
